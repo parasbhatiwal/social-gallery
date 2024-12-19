@@ -1,0 +1,47 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <main class="login-page-main">
+                    <div class="left-sec">
+                        <div class="info-text">
+                            Welcome to <br><span>Social</span> Gallery
+                        </div>
+                        <div class="logo">
+                            <img src="assets/images/transparent-logo.png" alt="">
+                        </div>
+                    </div>
+                    <form class="right-sec" [formGroup]="loginForm" (submit)="loginFormSubmit()">
+                        <div class="page-title">
+                            <h2>Login</h2>
+                        </div>
+                        <div class="standard-input-field">
+                            <mat-label>Username/Email</mat-label>
+                            <mat-form-field appearance="outline">
+                                <input formControlName="email" placeholder="Enter Your Username or Email Id" matInput>
+                            </mat-form-field>
+                            <!-- <mat-error>
+                Email is required
+            </mat-error> -->
+                        </div>
+                        <div class="standard-input-field">
+                            <mat-label>Password</mat-label>
+                            <mat-form-field appearance="outline">
+                                <input formControlName="password" placeholder="Enter Your Password" matInput>
+                            </mat-form-field>
+                            <!-- <mat-error>
+                Some error
+            </mat-error> -->
+                        </div>
+                        <button [disabled]="!loginForm.valid" type="submit" class="login-btn">
+                            Login
+                        </button>
+                        <p>
+                            Don’t have an account <a routerLink="/register" class="small-btn-login">Sign Up</a>
+                        </p>
+                    </form>
+                </main>
+            </div>
+        </div>
+    </div>
+</section>

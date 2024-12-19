@@ -1,0 +1,78 @@
+.mat-form-field {
+    width: 100%;
+}
+
+.post-content,
+.example-card {
+    max-width: 600px;
+}
+
+.post-content {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #7776;
+    border-radius: 8px;
+}
+
+.example-card {
+    box-shadow: 0 6px 6px #0a101426, 0 0 52px #0a10141f;
+    border-radius: 12px;
+    margin: 40px auto;
+    padding: 40px;
+
+    h2 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    img {
+        width: 100%;
+    }
+    
+    .comment-section {
+        background: aliceblue;
+        padding: 20px;
+        border-radius: 12px;
+        margin: 10px 0;
+            h3 {
+                margin: 0;
+                font-weight: 600;
+                font-size: 17px;
+            }
+
+        .comments_view {
+
+            display: flex;
+
+            p {
+                font-weight: 500;
+                color: #000;
+                margin-bottom: 0;
+                line-height: 26px;
+            }
+
+            span {
+                color: rgb(97 97 97);
+                margin-left: 5px;
+                line-height: 26px;
+            }
+        }
+    }
+
+    .card_content {
+        color: rgb(97 97 97);
+        font-size: 15px;
+        margin: 10px 5px;
+        line-height: 22px;
+    }
+
+    .like_btn {
+        display: flex;
+        align-items: center;
+        padding: 0 12px 10px;
+
+        mat-icon {
+            color: #ff71f3;
+        }
+    }
+}

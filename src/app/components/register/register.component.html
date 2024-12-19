@@ -1,0 +1,69 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <main class="login-page-main">
+                    <div class="left-sec">
+                        <div class="info-text">
+                            Welcome to <br><span>Social</span> Gallery
+                        </div>
+                        <div class="logo">
+                            <img src="assets/images/transparent-logo.png" alt="">
+                        </div>
+                    </div>
+                    <form class="right-sec" [formGroup]="registerForm" (submit)="registerFormSubmit()" >
+                        <div class="page-title">
+                            <h2>Register</h2>
+                        </div>
+                        <div class="standard-input-field">
+                            <mat-label>Username</mat-label>
+                            <mat-form-field appearance="outline">
+                                <input placeholder="Enter Your Username or Email Id" formControlName="username"
+                                    matInput>
+                            </mat-form-field>
+                            <!-- <mat-error>
+                Email is required
+            </mat-error> -->
+                        </div>
+                        <div class="standard-input-field">
+                            <mat-label>Email</mat-label>
+                            <mat-form-field appearance="outline">
+                                <input placeholder="Enter Your Username or Email Id" formControlName="email" matInput>
+                            </mat-form-field>
+                            <!-- <mat-error>
+                Email is required
+            </mat-error> -->
+                        </div>
+                        <div class="standard-input-field">
+                            <mat-label>Password</mat-label>
+                            <mat-form-field appearance="outline">
+                                <input placeholder="Enter Your Password" formControlName="password" matInput>
+                            </mat-form-field>
+                            <!-- <mat-error>
+                Some error
+            </mat-error> -->
+                        </div>
+                        <!-- <div class="standard-input-field">
+                            <mat-label>Confirm Password</mat-label>
+                            <mat-form-field appearance="outline">
+                                <input placeholder="Enter Your Password" matInput>
+                            </mat-form-field>
+                            <mat-error>
+                                Some error
+                            </mat-error>
+                        </div> -->
+                        <!-- <section class="term-condition-checkbox">
+                            <mat-checkbox class="example-margin">I accept all Term & Conditions</mat-checkbox>
+                        </section> -->
+                        <button type="submit" [disabled]="!registerForm.valid" class="login-btn" >
+                            Sign Up
+                        </button>
+                        <p>
+                            Already have an acoount<a routerLink="/login" class="small-btn-login">Login</a>
+                        </p>
+                    </form>
+                </main>
+            </div>
+        </div>
+    </div>
+</section>

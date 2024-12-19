@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+    <button hidden mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span>Social Gallery</span>
+    <span class="example-spacer ms-auto"></span>
+    <!-- <button mat-raised-button routerLink="/login" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <span>Login</span>
+    </button> -->
+    <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon>account_circle</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="logOut()">Log Out</button>
+    </mat-menu>
+    <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+    </button> -->
+</mat-toolbar>
