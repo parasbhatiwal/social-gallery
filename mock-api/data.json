@@ -1,0 +1,155 @@
+{
+  "user": [
+    {
+      "username": "parass",
+      "email": "paras@gmail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "username": "rahulbhai",
+      "email": "rahul@gmail.com",
+      "password": "rahul@123",
+      "id": 2
+    },
+    {
+      "email": "parass",
+      "password": "paras@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "karan786",
+      "email": "karan@gmail.com",
+      "password": "Karan@123",
+      "id": 4
+    },
+    {
+      "username": "krunal",
+      "email": "krunal@gmail.com",
+      "password": "kruns@123",
+      "id": 5
+    },
+    {
+      "username": "manvir",
+      "email": "manvir@gmail.com",
+      "password": "manvir@123",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "username": "parass",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/social-gallery-fef71.appspot.com/o/image%2F1674061646431?alt=media&token=85979aa2-f4aa-4bd1-abc3-2cf51c5c89cc",
+      "text": "hi this is the first post",
+      "like": [
+        6,
+        1
+      ],
+      "comment": [
+        "dsgwverstvgweg dfg s",
+        {
+          "commentText": "asdgfsfasdfcf sfgsd gf",
+          "username": "parass"
+        },
+        {
+          "commentText": "hi my comment",
+          "username": "parass"
+        },
+        {
+          "commentText": "comment from firefox",
+          "username": "parass"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "username": "parass",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/social-gallery-fef71.appspot.com/o/image%2F1674062190938?alt=media&token=14f46172-cfb1-466f-b72b-db0cadd30c76",
+      "text": "this is my second post",
+      "like": [],
+      "comment": [],
+      "id": 2
+    },
+    {
+      "username": "parass",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/social-gallery-fef71.appspot.com/o/image%2F1674062325718?alt=media&token=6fbe6686-0574-4c57-b68e-512beae90a96",
+      "text": "this is the third post",
+      "like": [],
+      "comment": [],
+      "id": 3
+    },
+    {
+      "username": "manvir",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/social-gallery-fef71.appspot.com/o/image%2F1674062765392?alt=media&token=25963770-b73a-4cd2-941b-284d1f384bea",
+      "text": "this post is from another account",
+      "like": [],
+      "comment": [],
+      "id": 4
+    },
+    {
+      "username": "manvir",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/social-gallery-fef71.appspot.com/o/image%2F1674063458067?alt=media&token=f380771e-42ee-4cb3-89c0-a2c5c95515d6",
+      "text": "aesdghdfbdfnd sbreh dgh sh  hdgfhd h",
+      "like": [],
+      "comment": [],
+      "id": 5
+    },
+    {
+      "username": "parass",
+      "imgUrl": null,
+      "text": "sdfgsdfsdvsdfg",
+      "like": [],
+      "comment": [
+        {
+          "commentText": "sfgsdf",
+          "username": "parass"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "username": "parass",
+      "imgUrl": null,
+      "text": "post without image is here",
+      "like": [],
+      "comment": [
+        {
+          "commentText": "please do not post without images",
+          "username": "parass"
+        },
+        {
+          "commentText": "hi",
+          "username": "parass"
+        },
+        {
+          "commentText": "bye",
+          "username": "parass"
+        },
+        {
+          "commentText": "no stay hr",
+          "username": "manvir"
+        },
+        {
+          "commentText": "hi",
+          "username": "parass"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "username": "parass",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/social-gallery-fef71.appspot.com/o/image%2F1674154122271?alt=media&token=6db592a0-4350-490d-8bbb-3971d5fc636c",
+      "text": "here's I'm pointing at you only",
+      "like": [
+        1
+      ],
+      "comment": [
+        {
+          "commentText": "please don't point at me yrr",
+          "username": "parass"
+        }
+      ],
+      "id": 8
+    }
+  ]
+}
